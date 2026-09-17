@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="個人記帳 APP：簡潔、無廣告，支援本地資料儲存的隨身記帳工具。" />
+    <title>個人記帳 APP | Bookkeeping App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="個人記帳 APP 首頁">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M7 3.75h10a2 2 0 0 1 2 2v12.5a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5.75a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.8"/><path d="M8.5 8.5h7M8.5 12h7M8.5 15.5h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </span>
+        <span>Bookkeeping</span>
+      </a>
+      <span class="header-note">YOUR MONEY, YOUR WAY</span>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span>把每一筆，都記得剛剛好</div>
+          <h1 id="hero-title">簡單記帳，<br /><em>更自在</em>生活。</h1>
+          <p class="hero-text">簡潔、無廣告、支援本地資料儲存的隨身記帳工具，讓你隨時掌握每一筆日常支出。</p>
+          <a class="download-button" href="./downloads/app-release.apk" download="app-release.apk">
+            <span class="android-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M7.4 9.1v7.3c0 .65.52 1.17 1.17 1.17h.7v2.15a1.05 1.05 0 1 0 2.1 0v-2.15h1.26v2.15a1.05 1.05 0 1 0 2.1 0v-2.15h.7c.65 0 1.17-.52 1.17-1.17V9.1H7.4ZM9.2 7.8h5.6L13.7 5.7l.8-1.4-.48-.28-.87 1.5a4.85 4.85 0 0 0-2 0l-.87-1.5-.48.28.8 2.1H9.2ZM5.9 9.1A1.1 1.1 0 0 0 4.8 10.2v4.55a1.1 1.1 0 1 0 2.2 0V10.2A1.1 1.1 0 0 0 5.9 9.1ZM18.1 9.1a1.1 1.1 0 0 0-1.1 1.1v4.55a1.1 1.1 0 1 0 2.2 0V10.2a1.1 1.1 0 0 0-1.1-1.1Z" fill="currentColor"/></svg></span>
+            <span>下載 Android APK</span><span class="button-arrow" aria-hidden="true">↗</span>
+          </a>
+          <p class="download-meta"><span class="meta-check">✓</span> 免費下載　·　Android 8.0 以上適用</p>
+        </div>
+        <div class="hero-visual" aria-label="APP 介面示意圖">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="phone-shadow"></div>
+          <div class="phone">
+            <div class="phone-speaker"></div>
+            <div class="phone-screen">
+              <div class="app-bar"><span class="app-greeting">早安，<strong>小安</strong></span><span class="avatar">安</span></div>
+              <div class="balance-label">本月可用餘額</div><div class="balance">$ 18,420<span> TWD</span></div>
+              <div class="balance-line"><span>較上月 <b>+12.8%</b></span><span class="trend">↗</span></div>
+              <div class="chart-card"><div class="chart-heading"><span>支出概況</span><small>本月⌄</small></div><div class="chart-row"><div class="donut"><span>支出<br /><b>6,580</b></span></div><div class="legend"><span><i class="purple"></i>飲食 <b>$2,410</b></span><span><i class="orange"></i>交通 <b>$1,280</b></span><span><i class="green"></i>其他 <b>$2,890</b></span></div></div></div>
+              <div class="recent-title"><span>最近紀錄</span><small>查看全部　→</small></div>
+              <div class="expense"><span class="expense-icon food">⌁</span><span><b>午餐</b><small>今天 · 12:30</small></span><strong>-$ 120</strong></div>
+              <div class="expense"><span class="expense-icon trans">↗</span><span><b>捷運</b><small>今天 · 08:45</small></span><strong>-$ 35</strong></div>
+            </div>
+            <div class="phone-nav"><span>⌂<small>首頁</small></span><span>◷<small>紀錄</small></span><span class="add">＋</span><span>◌<small>分析</small></span><span>☻<small>我的</small></span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" aria-labelledby="features-title">
+        <div class="section-heading"><span class="eyebrow">WHY BOOKKEEPING</span><h2 id="features-title">為日常，留一點餘裕。</h2></div>
+        <div class="feature-grid">
+          <article class="feature-card"><div class="feature-icon chart-icon"><svg viewBox="0 0 32 32" fill="none"><path d="M16 5a11 11 0 1 0 11 11H16V5Z" stroke="currentColor" stroke-width="2"/><path d="M19 5a8 8 0 0 1 8 8h-8V5Z" fill="currentColor"/></svg></div><span class="feature-number">01</span><h3>一眼看懂支出</h3><p>清晰的數據統計與圓餅圖，消費習慣和每月花費比例，立即掌握。</p></article>
+          <article class="feature-card"><div class="feature-icon lock-icon"><svg viewBox="0 0 32 32" fill="none"><rect x="7" y="13" width="18" height="14" rx="3" stroke="currentColor" stroke-width="2"/><path d="M11 13V9a5 5 0 0 1 10 0v4M16 19v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><span class="feature-number">02</span><h3>資料只在你手上</h3><p>所有帳務資料安全儲存在本機，沒有廣告追蹤，保留真正的隱私。</p></article>
+          <article class="feature-card"><div class="feature-icon spark-icon">✦</div><span class="feature-number">03</span><h3>直覺，才是最好的功能</h3><p>簡單俐落的操作介面，記下一筆支出只需幾秒，不打斷生活節奏。</p></article>
+        </div>
+      </section>
+    </main>
+    <footer><span>© 2024 BOOKKEEPING APP</span><span>簡單記帳，專注生活。</span></footer>
+  </body>
+</html>
